@@ -6,3 +6,4 @@ const Physics = (entities, { touches, time }) => {
     Matter.Engine.update(engine, time.delta);
     return entities;
 }
+export default Physics;
